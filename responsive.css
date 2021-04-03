@@ -484,6 +484,12 @@ nav input[type="checkbox"] {
         padding: 0;
     }
 
+
+    .education-section .education-row .education-right .edudacation-details .details-left span {
+        display: block;
+     
+    }
+
     .employment-section .employment-card-row {
         flex-wrap: wrap;
     }
@@ -568,8 +574,10 @@ nav input[type="checkbox"] {
 
     }
 
-    footer .footer-top ul li {
-        flex: 1 1 auto;
+   
+
+    footer {
+        padding: 20px 0;
     }
 
 
@@ -624,6 +632,11 @@ nav input[type="checkbox"] {
 
     .trophy-section .trophy-items .trophy-item {
         width: 35%;
+    }
+
+    .education-section .education-row .education-right .edudacation-details .details-left span {
+        display: block;
+     
     }
 
 
