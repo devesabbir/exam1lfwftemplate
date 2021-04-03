@@ -1,0 +1,690 @@
+nav input[type="checkbox"] {
+
+    display: none;
+}
+
+
+@media all and (max-width:1500px) {
+    .banner-section .banner-row .banner-content h1 {
+        font-size: 55px;
+    }
+
+
+    .banner-section .banner-row .banner-content h2::after {
+
+          display: none;
+    }
+
+    .banner-section .banner-row .banner-content h2::before {
+          display: none;
+    }
+
+
+}
+
+
+
+
+@media all and (max-width:1200px) {
+         
+    .container {
+        max-width: 100%;
+        width: 100%;
+        padding: 0 20px;
+    }
+
+
+}
+
+
+@media all and (max-width:1080px) {
+
+    .hello-section {
+        padding: 0;
+     
+    }
+
+
+    .hello-section .hello-row {
+        flex-wrap: wrap;
+    }
+
+    .hello-section .hello-row .hello-img {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 30px;
+    }
+
+    .hello-section .hello-row .hello-right {
+        width: 100%;
+        padding: 14px 60px;
+     
+    }
+
+    .title {
+        font-size: 35px;
+        margin: 25px 0;
+        margin-top: 13px;
+    }
+
+    .portfolio-section .portfolio-row .portfolio-item-row {
+        justify-content: center;
+  
+    }
+
+    .portfolio-section .portfolio-row .portfolio-item-row .portfolio-item {
+        width: 43%;
+        margin: 5px;
+    }
+
+    .portfolio-section .portfolio-row .portfolio-title {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 30px;
+     
+    }
+
+    .portfolio-section .portfolio-row .portfolio-tab ul {
+        justify-content: center;
+    }
+
+
+
+    .skills-section {
+        padding: 0px 0;
+ 
+    }
+
+    .skills-section .skills-row .skills-cards-row {
+        justify-content: center;
+    }
+
+    .skills-section .skills-row .skills-cards-row .skills-card {
+        width: 40%;
+        margin: 5px;
+    }
+
+    .skills-section .skills-row {
+        text-align: center;
+    }
+
+
+    .skills-section .skills-row .skills-cards-row .skills-card .skill-caption p {
+        text-align: justify;
+    }
+    .skills-section .skills-row .skills-cards-row .skills-card {
+        width: 88%;
+        margin: 10px;
+        flex-wrap: wrap;
+    }
+
+    .portfolio-section {
+        padding: 50px 0;
+    }
+
+
+    .skills-section .skills-row .skills-cards-row .skills-card .icon {
+        width: 100%;
+      
+    }
+
+
+    .skills-section .skills-row .skills-cards-row .skills-card .skill-caption {
+        width: 100%;
+ 
+    }
+
+    .skills-section .skills-row .skills-cards-row .skills-card .skill-caption p {
+        text-align: inherit;
+        font-size: 15px;
+    }
+
+    .skills-section .skills-row .skills-cards-row .skills-card .skill-caption h3 {
+        font-size: 17px;
+ 
+    }
+
+    .education-section .education-row .education-right .edudacation-details .details-left h4 {
+        margin: 7px 0;
+        font-size: 14px;
+
+    }
+
+    .education-section .education-row .education-right .edudacation-details {
+        padding: 14px;
+     
+    }
+
+    .education-section .education-row .education-right .edudacation-details .details-right p {
+        text-align: justify;
+    }
+
+    .education-section .education-row .education-right {
+        width: 55%;
+        padding: 25px;
+        padding-top: 11px;
+        padding-left: 0;
+    }
+
+
+    .education-section .education-title h3 {
+       
+        margin-top: 20px;
+    }
+
+
+    .counter-section {
+        padding: 70px 0;
+
+    }
+
+
+   
+
+  
+  
+
+
+
+
+}
+
+
+
+@media all and (max-width:992px) {
+       
+    header .header-row nav {
+        margin-right: 30px;
+    }
+
+    .education-section .education-row {
+
+        flex-wrap: wrap;
+    }
+
+    .education-section .education-row .education-right {
+        width: 100%;
+  
+    }
+
+    .education-section .education-row .education-img {
+        width: 100%;
+  
+    }
+
+    .education-section {
+        padding: 45px 0;
+    }
+
+    .education-section .education-title h3 {
+        margin-top: 15px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+    .education-section .education-title {
+        text-align: center;
+    }
+
+    .education-section .education-row .education-right .edudacation-details {
+        margin-top: 20px;
+    }
+
+    .education-section .education-row .education-right .edudacation-details {
+        padding: 30px;
+    }
+
+    .education-section .education-row .education-img {
+        padding: 10px;
+    }
+
+
+    .employment-section {
+        padding: 30px 0;
+    }
+
+    .employment-section .employment-card-row .employment-card {
+    
+        text-align: center;
+    }
+
+    .employment-section .employment-card-row .employment-card figure {
+        text-align: center;
+        margin-bottom: 11px;
+    }
+
+    .employment-section .employment-card-row .employment-card span {
+        display: block;
+        margin: 6px 0;
+    }
+
+    .employment-section .employment-card-row .employment-card h4 {
+        display: block;
+        margin: 8px 0;
+        font-size: 20px;
+        margin-left: 0;
+
+    }
+
+    .employment-section .employment-card-row .employment-card p {
+        text-align: justify;
+    }
+
+    .employment-section .employment-title {
+        text-align: center;
+    }
+
+    .employment-section .employment-title h3 {
+        font-size: 23px;
+    }
+
+
+    .banner-section .banner-row .banner-content h1 {
+        font-size: 37px;
+    }
+
+    .banner-section .banner-row .banner-content h2 {
+
+        margin: 25px 0;
+   
+    }
+
+    .banner-section {
+        padding: 260px 0;
+        background-attachment: inherit;
+    }
+
+}
+
+
+
+
+@media all and (max-width:828px) {
+      
+   
+
+}
+
+
+
+
+
+@media all and (max-width:820px) {
+    nav input[type="checkbox"] {
+
+        display: block;
+        position: absolute;
+        left: 20px;
+        top: 10px;
+        appearance: none;
+        width: 40px;
+        height: 40px;
+        cursor: pointer;
+    }
+
+
+    nav input[type="checkbox"]::after{
+         content: '\f0c9';
+         font-family: "Font Awesome 5 Free";
+         font-weight: 600;
+         font-size: 40px;
+         color: #fff;
+    }
+
+    nav input[type="checkbox"]:checked::after{
+        color: #fcc747;
+    }
+
+
+    header .header-row .logo {
+        width: 100%;
+        text-align: right;
+    }
+
+
+    header .header-row nav ul {
+        opacity: 0;
+        visibility: hidden;
+        position: absolute;
+        top: 75px;
+        left: 0px;
+        width: 100%;
+        display: block;
+        background: #000000c9;
+        height: 240px;
+        padding-left: 10px;
+        padding-top: 10px;
+        transition: .4s;
+      
+        transition: .4s;
+    }
+
+    header .header-row nav > ul {
+        border-top: 2px solid #fff;
+    }
+
+
+    nav input[type="checkbox"]:checked ~ ul{
+        opacity: 1;
+        visibility: visible;
+      
+    }
+
+
+    header .header-row nav ul li {
+        margin: 10px 0;
+    }
+
+
+    header .header-row nav ul li ul {
+        top: -26px;
+        left: 14%;
+        width: 192px;
+        height: 140px;
+        background: transparent;
+      
+    }
+
+    header .header-row nav ul li ul li ul {
+        left: 75%;
+        top: -11px;
+  
+    }
+
+    header .header-row nav ul li a {
+        font-size: 12px;
+    }
+
+
+    .fas.fa-angle-down {
+       
+    transform: rotate(-90deg);
+    }
+
+
+    header .header-row nav ul li ul li a i {
+        right: 38px;
+     
+    }
+
+    
+
+
+    
+}
+
+
+
+@media all and (max-width:768px) {
+    .hello-section .hello-row .hello-right .hello-list ul li {
+
+        font-size: 15px;
+     
+    }
+
+    .hello-section .hello-row .hello-right .hello-btn {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+
+    .hello-section .hello-row .hello-right {
+        padding: 25px 60px;
+    }
+
+    .title {
+        font-size: 24px;
+        margin: 15px 0;
+        margin-top: 14px;
+    }
+
+    .portfolio-section .portfolio-row .portfolio-item-row .portfolio-item .portfolio-overlay h4 {
+        font-size: 13px;
+        margin-top: 15px;
+
+    }
+
+
+    .portfolio-section .portfolio-row .portfolio-item-row .portfolio-item .portfolio-overlay span {
+        width: 45px;
+        height: 45px;
+        line-height: 45px;
+        border-radius: 50%;
+    }
+
+
+    .counter-section .counter-row .counter-box {
+        flex-basis: 100%;
+        margin: 35px;
+    }
+
+
+    .counter-section {
+        padding: 20px 0;
+  
+    }
+
+    .education-section .education-row .education-right .edudacation-details {
+        flex-wrap: wrap;
+    }
+
+    .education-section .education-row .education-right .edudacation-details .details-left {
+        width: 100%;
+        margin-bottom: 25px;
+        text-align: center;
+        padding: 0;
+    }
+
+    .education-section .education-row .education-right .edudacation-details .details-right {
+        width: 100%;
+        padding: 0;
+    }
+
+    .employment-section .employment-card-row {
+        flex-wrap: wrap;
+    }
+
+
+    .employment-section .employment-card-row .employment-card {
+        width: 100%;
+  
+    }
+
+    .employment-section .employment-card-row .employment-card {
+
+        padding: 15px 0;
+    }
+
+
+    .trophy-section {
+        padding: 50px 0;
+       
+    }
+
+    .contact-section .contact-title {
+        text-align: center;
+    }
+
+    .title {
+        font-size: 20px;
+
+
+    }
+
+    .contact-section .form-row .form-top .contact-box span {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    
+    }
+
+
+    .contact-section .form-row .form-top .contact-box ul li a {
+        font-size: 15px;
+    
+    }
+
+    .contact-section .form-row .form-top .contact-box ul li {
+        font-size: 15px;
+   
+    }
+
+    .contact-section .form-row .form-bottom form .form-right {
+        width: 100%;
+        padding: 20px 30px;
+        padding-right: 13px;
+    }
+
+    .contact-section .form-row .form-bottom form .form-left {
+        width: 100%;
+
+    }
+
+    .contact-section .form-row {
+        padding: 30px 0;
+    }
+
+    .contact-section .form-row .form-top {
+        flex-wrap: wrap;
+    }
+
+    .contact-section .form-row .form-top .contact-box {
+        width: 100%;
+    }
+
+    .contact-section .form-row .form-bottom form .form-wrapper {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+
+    .contact-section .form-row .form-bottom form button[type="submit"] {
+        padding: 13px 12px;
+        font-size: 12px;
+
+    }
+
+    footer .footer-top ul li {
+        flex: 1 1 auto;
+    }
+
+
+
+}
+
+
+@media all and (max-width:576px) {
+      
+    header .header-row nav ul li ul {
+     
+    left: 20%;
+    }
+
+    .hello-section .hello-row .hello-right .hello-top h2 {
+        margin-top: 20px;
+        font-size: 20px;
+    }
+
+    .hello-section .hello-row .hello-right .hello-list ul li {
+        padding: 5px 0;
+    }
+
+    .hello-section .hello-row .hello-right .hello-btn a {
+        font-size: 13px;
+      
+    }
+
+    .hello-section .hello-row .hello-right {
+        padding: 10px 20px;
+    }
+
+    .hello-section .hello-row .hello-right .hello-btn {
+        margin-top: 25px;
+    }
+
+    .portfolio-section .portfolio-row .portfolio-item-row .portfolio-item {
+        width: 100%;
+    }
+
+
+    .title {
+        font-size: 17px;
+        margin-top: 15px;
+    }
+
+    .trophy-section .trophy-items {
+
+        justify-content: space-evenly;
+
+    }
+
+    .trophy-section .trophy-items .trophy-item {
+        width: 35%;
+    }
+
+
+
+}
+
+
+@media all and (max-width:468px) {
+       
+    header .header-row nav ul li ul li ul {
+        left: 65%;
+      
+    }
+
+    header .header-row nav ul li a {
+        font-size: 11px;
+    }
+
+
+
+    .banner-section .banner-row .banner-content .banner-btn a {
+        padding: 12px 20px;
+        font-size: 10px;
+    }
+
+    .banner-section .banner-row .banner-content h2 {
+        font-size: 14px;
+        margin: 13px 0;
+   
+    }
+
+    .hello-section .hello-row .hello-right {
+        padding: 5px 7px;
+    }
+    .hello-section .hello-row .hello-right .hello-top h2 {
+   
+        font-size: 17px;
+    }
+
+    .hello-section .hello-row .hello-right .hello-top p {
+        margin-top: 8px;
+        font-size: 14px;
+        text-align: justify;
+    }
+
+    .hello-section .hello-row .hello-right .hello-list ul li {
+        padding: 4px 0;
+    }
+
+    .hello-section .hello-row .hello-right .hello-list ul li {
+        font-size: 13px;
+    }
+
+    .hello-section .hello-row .hello-right .hello-btn a {
+        padding: 11px 5px;
+        font-size: 15px;
+     
+    }
+
+}
+
+
+
+@media all and (max-width:300px) {}
