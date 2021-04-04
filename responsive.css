@@ -391,7 +391,7 @@ nav input[type="checkbox"] {
 
     header .header-row nav ul li ul li ul {
         left: 75%;
-        top: -11px;
+        top: -1px;
   
     }
 
@@ -589,7 +589,7 @@ nav input[type="checkbox"] {
       
     header .header-row nav ul li ul {
      
-    left: 20%;
+    left: 23%;
     }
 
     .hello-section .hello-row .hello-right .hello-top h2 {
@@ -647,7 +647,7 @@ nav input[type="checkbox"] {
 @media all and (max-width:468px) {
        
     header .header-row nav ul li ul li ul {
-        left: 65%;
+        left: 53%;
       
     }
 
