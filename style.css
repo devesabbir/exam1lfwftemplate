@@ -583,7 +583,6 @@ li.active a {
     display: flex;
     background: #fefefe;
     box-shadow: 0 0 10px 5px #00000017;
-    border-radius: 5px;
     padding: 30px 25px;
     transition: .4s;
 }
