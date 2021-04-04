@@ -975,10 +975,10 @@ li.active a {
 }
 
 
-.contact-section .form-row .form-bottom form .form-left input:focus {
+ .contact-section .form-row .form-bottom form .form-left input:focus {
 
     border-color:#fcc747 ;
-}
+} 
 
 .contact-section .form-row .form-bottom form .form-left input[type="text"] {
     display: block;
@@ -1014,7 +1014,7 @@ li.active a {
 
 .contact-section .form-row .form-bottom form .form-right textarea:focus {
     border-color:#fcc747 ;
-}
+} 
 
 
 .contact-section .form-row .form-bottom form button[type="submit"] {

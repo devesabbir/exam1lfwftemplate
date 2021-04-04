@@ -327,7 +327,7 @@ nav input[type="checkbox"] {
     }
 
 
-    nav input[type="checkbox"]::after{
+    nav input[type="checkbox"]::before{
          content: '\f0c9';
          font-family: "Font Awesome 5 Free";
          font-weight: 600;
@@ -335,7 +335,7 @@ nav input[type="checkbox"] {
          color: #fff;
     }
 
-    nav input[type="checkbox"]:checked::after{
+    nav input[type="checkbox"]:checked::before{
         color: #fcc747;
     }
 
